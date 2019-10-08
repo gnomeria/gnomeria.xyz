@@ -1,33 +1,24 @@
 <template>
-  <div>
-    <nav class="demo">
-      <a href="#" class="brand"></a>
-      <span>ROOT</span>
+  <div class="main stack">
+    <header class="hero">
+      <nav class="demo stack">
+        <a href="/" class="brand">
+          <button class="border--maroon">ROOT</button>
+        </a>
 
-      <div class="menu">
-        <a href="#" class="pseudo button icon-picture">Demo</a>
-        <a href="#" class="button icon-puzzle">Plugins</a>
-      </div>
-    </nav>
+        <div class="menu">
+          <a href="/article" class="pseudo button icon-picture">Article</a>
+        </div>
+      </nav>
+    </header>
+    <nuxt class="visual flex one-800 pseudo nuxt-content" />
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      clipped: false,
-      drawer: true,
-      fixed: false,
-      items: [
-        { icon: 'apps', title: 'Welcome', to: '/' },
-        { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
-    }
+    return {}
   }
 }
 </script>
