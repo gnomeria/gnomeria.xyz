@@ -1,5 +1,6 @@
 {
-  "eslint.validate": [{
+  "eslint.validate": [
+    {
       "language": "html",
       "autoFix": true
     },
@@ -23,5 +24,5 @@
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "vetur.validation.template": false,
-  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.js": "vscode-typescript"
 }
